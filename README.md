@@ -7,3 +7,4 @@ The goal is to facilitate testing of the angular2-jwt library under different co
 ## The Samples
 
 [Angular8](/angular8) - Sample built using Angular 8, based on the [Auth0 Angular Quickstart sample](https://auth0.com/docs/quickstart/spa/angular2)
+
