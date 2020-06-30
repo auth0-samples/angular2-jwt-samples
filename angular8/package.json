@@ -15,7 +15,7 @@
   "dependencies": {
     "@auth0/angular-jwt": "^2.1.1",
     "express": "^4.16.4",
-    "express-jwt": "^5.3.1",
+    "express-jwt": "^6.0.0",
     "helmet": "^3.16.0",
     "jwks-rsa": "^1.6.0",
     "morgan": "^1.9.1"
