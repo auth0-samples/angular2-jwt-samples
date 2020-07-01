@@ -23,7 +23,7 @@
     "@angular/router": "~8.0.1",
     "@auth0/angular-jwt": "^2.1.0",
     "express": "^4.16.4",
-    "express-jwt": "^5.3.1",
+    "express-jwt": "^6.0.0",
     "helmet": "^3.16.0",
     "jwks-rsa": "^1.4.0",
     "morgan": "^1.9.1",
