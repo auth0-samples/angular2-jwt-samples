@@ -56,7 +56,7 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.19",
     "@fortawesome/free-solid-svg-icons": "^5.9.0",
     "@ng-bootstrap/ng-bootstrap": "^4.2.1",
-    "highlight.js": "^9.15.8",
+    "highlight.js": "^10.1.2",
     "nodemon": "^1.18.11",
     "npm-run-all": "^4.1.5",
     "samples-bootstrap-theme": "github:auth0-samples/samples-bootstrap-theme",
