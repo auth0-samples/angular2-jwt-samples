@@ -14,7 +14,7 @@
   "private": true,
   "dependencies": {
     "@auth0/angular-jwt": "^2.1.1",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "express-jwt": "^6.0.0",
     "helmet": "^3.16.0",
     "jwks-rsa": "^1.6.0",
