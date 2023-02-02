@@ -18,9 +18,15 @@ workflows:
           pkg-manager: npm
           app-dir: angular8
           npm-run: build
+          setup:
+            - run:
+                command: cp auth_config.json.example auth_config.json
       - node/run:
           name: Build Ivy sample
           version: '14.21'
           pkg-manager: npm
           app-dir: angular8-ivy
           npm-run: build
+          setup:
+            - run:
+                command: cp auth_config.json.example auth_config.json
