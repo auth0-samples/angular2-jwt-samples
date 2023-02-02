@@ -9,11 +9,18 @@ orbs:
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
 workflows:
-  sample: # This is the name of the workflow, feel free to change it to better match your workflow.
+  build-samples: # This is the name of the workflow, feel free to change it to better match your workflow.
     # Inside the workflow, you define the jobs you want to run.
     jobs:
       - node/run:
+          name: Build non-Ivy sample
           version: '14.21'
           pkg-manager: npm
           app-dir: angular8
+          npm-run: build
+      - node/run:
+          name: Build Ivy sample
+          version: '14.21'
+          pkg-manager: npm
+          app-dir: angular8-ivy
           npm-run: build
