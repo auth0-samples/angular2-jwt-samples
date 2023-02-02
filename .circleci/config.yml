@@ -20,7 +20,7 @@ workflows:
           npm-run: build
           setup:
             - run:
-                command: cp auth_config.json.example auth_config.json
+                command: cp angular8/auth_config.json.example angular8/auth_config.json
       - node/run:
           name: Build Ivy sample
           version: '14.21'
@@ -29,4 +29,4 @@ workflows:
           npm-run: build
           setup:
             - run:
-                command: cp auth_config.json.example auth_config.json
+                command: cp angular8-ivy/auth_config.json.example angular8-ivy/auth_config.json
