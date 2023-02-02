@@ -15,5 +15,5 @@ workflows:
       - node/run:
           version: '14.21'
           pkg-manager: npm
-          working_directory: angular8
+          app-dir: angular8
           npm-run: build
