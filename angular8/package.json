@@ -21,7 +21,7 @@
     "morgan": "^1.10.0"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^15.1.4",
+    "@angular-devkit/build-angular": "^15.2.4",
     "@angular/animations": "^8.2.14",
     "@angular/cli": "^15.1.4",
     "@angular/common": "^8.2.14",
