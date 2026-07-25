@@ -22,7 +22,7 @@
     "@angular/platform-browser-dynamic": "~8.0.1",
     "@angular/router": "~8.0.1",
     "@auth0/angular-jwt": "^2.1.2",
-    "express": "^4.18.2",
+    "express": "^4.22.2",
     "express-jwt": "^8.4.0",
     "helmet": "^3.23.3",
     "jwks-rsa": "^3.0.1",
